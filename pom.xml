@@ -35,6 +35,7 @@
 		</dependency>
 		
 		<dependency>
+<<<<<<< HEAD
 			<groupId>org.springframework.boot</groupId>
 			<artifactId>spring-boot-starter-security</artifactId>
 		</dependency>
@@ -46,6 +47,8 @@
 		</dependency>
 		
 		<dependency>
+=======
+>>>>>>> 700a712bcca54c8f26d7c12b7bd7ab04f79af085
 			<groupId>mysql</groupId>
 			<artifactId>mysql-connector-java</artifactId>
 		</dependency>
