@@ -7,7 +7,18 @@ import org.springframework.security.core.Authentication;
 import org.springframework.stereotype.Service;
 
 import br.com.alura.forum.modelo.Usuario;
+<<<<<<< HEAD
 import io.jsonwebtoken.Claims;
+=======
+<<<<<<< HEAD
+import io.jsonwebtoken.Claims;
+=======
+<<<<<<< HEAD
+import io.jsonwebtoken.Claims;
+=======
+>>>>>>> 55c94f6c05b730a7c5f31dcb4a8b24994c5b5584
+>>>>>>> 4894220b423d44d7ad4622fc20590b6c35e7863e
+>>>>>>> 6fc1e2b1efea72d0fff32e3d95e400a84cb361e9
 import io.jsonwebtoken.Jwts;
 import io.jsonwebtoken.SignatureAlgorithm;
 
@@ -33,6 +44,13 @@ public class TokenService {
 				.signWith(SignatureAlgorithm.HS256, secretKey)
 				.compact();
 	}
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 4894220b423d44d7ad4622fc20590b6c35e7863e
+>>>>>>> 6fc1e2b1efea72d0fff32e3d95e400a84cb361e9
 
 	public boolean isTokenValido(String token) {
 		try {
@@ -52,5 +70,13 @@ public class TokenService {
 		.parseClaimsJws(token).getBody();
 		return Long.parseLong(claims.getSubject());
 	}
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> 55c94f6c05b730a7c5f31dcb4a8b24994c5b5584
+>>>>>>> 4894220b423d44d7ad4622fc20590b6c35e7863e
+>>>>>>> 6fc1e2b1efea72d0fff32e3d95e400a84cb361e9
 	
 }
