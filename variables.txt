@@ -1,0 +1,14 @@
+# Production profile:
+-Dspring.profiles.active=prod
+
+# Development profile:
+-Dspring.profiles.active=dev
+
+# Ambient variables:
+
+export FORUM_DATABASE_USERNAME=root
+export FORUM_DATABASE_PASSWORD=P@$$w0rd
+
+Or, copy this entire line: (In case .jar application)
+
+java -jar -Dspring.profiles.active=prod -DFORUM_DATABASE_USERNAME=root -DFORUM_DATABASE_PASSWORD=P@$$w0rd forum-1.0.0.jar
