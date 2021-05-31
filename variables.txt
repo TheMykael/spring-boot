@@ -1,0 +1,17 @@
+# Production profile:
+-Dspring.profiles.active=prod
+
+# Development profile:
+-Dspring.profiles.active=dev
+
+# Ambient variables:
+
+export FORUM_DATABASE_URL=jdbc:mysql://localhost:3306/forum_alura?useTimezone=true&serverTimezone=UTC
+export FORUM_DATABASE_USERNAME=root
+export FORUM_DATABASE_PASSWORD=P@$$w0rd
+export JWT_SECRET=rm'!@N=Ke!~p8VTA2ZRK~nMDQX5Uvm!m'D&]{@Vr?K!6?XhbC:Qa#9#eMLN\\}x3?JR3.2zr~v)gYF^8\\:8>:XfB:Ww75N/emt9Yj[bQMNCWwW\\J?N,nvH.<2\\.r~w]*e~vgak)X"v8H`MH/7"2E`,^k@n<vE-wD3g9JWPy;CrY*.Kd2_D])=><D?YhBaSua5hW%{2]_FVXzb9`8FH^b[X3jzVER&:jw2<=c38=>L/zBq`}C6tT*cCSVC^c]-L}&/
+export ADMIN_SERVER_USERNAME=admin
+export ADMIN_SERVER_PASSWORD=admin123
+export ADMIN_CLIENT_USERNAME=root
+export ADMIN_CLIENT_PASSWORD=P@$$w0rd
+export PORT=8080
