@@ -3,9 +3,12 @@
 Neste projeto, a finalidade é criar um modelo do fórum da Alura utilizando diversas features que o Spring nos proporciona.
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 =======
 =======
 >>>>>>> 6fc1e2b1efea72d0fff32e3d95e400a84cb361e9
+=======
+>>>>>>> 26a32ea4127a1a1aa3daa2e86004e0f006f6c7d1
 
 ## Spring Boot Admin Server
 
@@ -13,6 +16,9 @@ Será criado um novo repositório, contendo o SBAS, responsável por fazer um mo
 
 O nome do repositório é "spring-boot-server-admin"
 <<<<<<< HEAD
+<<<<<<< HEAD
 >>>>>>> 4894220b423d44d7ad4622fc20590b6c35e7863e
 =======
 >>>>>>> 6fc1e2b1efea72d0fff32e3d95e400a84cb361e9
+=======
+>>>>>>> 26a32ea4127a1a1aa3daa2e86004e0f006f6c7d1
